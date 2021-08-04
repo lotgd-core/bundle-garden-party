@@ -48,4 +48,12 @@ class LotgdGardenPartyBundle extends Bundle implements LotgdBundleInterface
     {
         return 'Party in the Garden of all cities.';
     }
+
+    /**
+     * @inheritDoc
+     */
+    public function getLotgdDownload(): ?string
+    {
+        return 'https://github.com/lotgd-core/bundle-garden-party';
+    }
 }
