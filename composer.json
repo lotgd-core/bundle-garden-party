@@ -1,0 +1,71 @@
+{
+    "name": "lotgd-core/bundle-garden-party",
+    "description": "Party in the Garden of all cities.",
+    "version": "0.1.0",
+    "type": "lotgd-bundle",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Iván Diaz Marinas (IDMarinas)",
+            "email": "35842929+idmarinas@users.noreply.github.com",
+            "homepage": "https://github.com/lotgd-core/bundle-garden-party",
+            "role": "Developer"
+        },
+        {
+            "name": "Eric Stevens",
+            "role": "Original Idea"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": {
+            "*": "dist"
+        },
+        "process-timeout": 5000,
+        "sort-packages": true
+    },
+    "support": {
+        "issues": "https://github.com/lotgd-core/bundle-garden-party/issues"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.3",
+        "idmarinas/lotgd-contracts": "^0.2.0",
+        "symfony/dependency-injection": "^4.4|^5.0",
+        "symfony/framework-bundle": "^4.4|^5.0",
+        "symfony/http-kernel": "^4.4|^5.0",
+        "symfony/yaml": "^4.4|^5.0"
+    },
+    "require-dev": {
+        "idmarinas/lotgd": "^6.0",
+        "matthiasnoback/symfony-config-test": "^4.2",
+        "matthiasnoback/symfony-dependency-injection-test": "^4.2",
+        "nyholm/symfony-bundle-test": "^1.7",
+        "phpunit/phpunit": "^8.5",
+        "symfony/phpunit-bridge": "^5.3",
+        "symfony/test-pack": "^1.0"
+    },
+    "conflict": {
+        "idmarinas/lotgd": "<6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lotgd\\Bundle\\GardenParty\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lotgd\\Bundle\\GardenParty\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "funding": [
+        {
+            "type": "paypal",
+            "url": "https://www.paypal.me/idmarinas"
+        }
+    ]
+}
