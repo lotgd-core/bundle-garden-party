@@ -1,7 +1,6 @@
 {
     "name": "lotgd-core/garden-party-bundle",
     "description": "Party in the Garden of all cities.",
-    "version": "0.1.2",
     "type": "lotgd-bundle",
     "license": "BSD-3-Clause",
     "authors": [
