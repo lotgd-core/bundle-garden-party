@@ -4,7 +4,7 @@ Party in the Garden of all cities.
 
 # Install
 ```bash
-composer require lotgd-core/bundle-garden-party
+composer require lotgd-core/garden-party-bundle
 ```
 
 # Default configuration
